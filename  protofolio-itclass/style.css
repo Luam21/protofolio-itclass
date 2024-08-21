@@ -1,0 +1,49 @@
+/* styles.css */
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+#home {
+    background: rgba(0, 0, 0, 0.6);
+    color: #0b0b0b;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    background-position: center;
+}
+
+#about {
+    background-color: #d36b9b;
+}
+
+#about img {
+    background-color: #d36b9b;
+    border: 5px solid ;
+    transition: transform 0.3s ease;
+}
+
+#about img:hover {
+    transform: scale(1.05);
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+#contact {
+    background: #343a40;
+}
+
+footer {
+    background: #222;
+}
+
